@@ -1,4 +1,4 @@
-const expertBtn = document.querySelector(".buttonExp");
+const expertBtn = document.querySelector(".moreInfo");
 const popUpWindow = document.querySelector(".popUpWindow");
 const cross = document.querySelector(".union");
 
