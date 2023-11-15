@@ -134,7 +134,10 @@ p{
 	outline: none;
 	border: none;
 	cursor: pointer;
+
+	transition: all 0.3s ease-out;
 }
+
 .frontButtonText{
 	color: #FFF;
 	text-align: center;
@@ -144,7 +147,17 @@ p{
 	font-weight: 700;
 	line-height: 102.595%; 
 
-	transition: all 0.2s ease-out;
+	transition: all 0.3s ease-out;
+}
+.downloadButton:hover{
+	background: #FFF;
+}
+.downloadButton:hover .frontButtonText{
+	color: #878ECA;
+}
+.downloadButton:active{
+	transform: scale(0.9);
+	transition: all 0.1s ease-out;
 }
 .textUnderDownloadBtn{
 	color: #000;
@@ -190,4 +203,8 @@ p{
 }
 .moreInfo{
 	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	z-index: 1;
 }
