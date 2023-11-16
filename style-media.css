@@ -1,0 +1,165 @@
+@media (max-width:1200px){
+	html{
+		height: auto;
+	}
+	body{
+	overflow-x: hidden;
+	}
+	.background{
+		height: auto;
+	}
+	.wrapper-background{
+		width: 342px;
+		max-width: 100%;
+		padding: 20px 21px;
+	}
+	.main-header{
+		width: 301px;
+		font-size: 21px;
+		margin-top: 0;
+	}
+	.main-photo{
+		width: 213.766px;
+		height: 328.144px;
+		right: 57px;
+		top: 92.64px;
+	}
+	.containerExpertName{
+		position: absolute;
+		top: 384px;
+		right: auto;
+
+		display: inline-flex;
+		width: 300px;
+		height: 47px;
+		padding: 10px;
+		justify-content: center;
+		align-items: center;
+		gap: 9px;
+	}
+	.expertName{
+		width: 245px;
+		text-align: right;
+		font-family: Noto Sans;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 900;
+		line-height: 89.557%;
+	}
+	.moreInfo{
+		cursor: pointer;
+		width: 26px;
+		height: 27px;
+	}
+	.containerForTopAndMiddle{
+		width: 300px;
+	}
+	.container-bottom{
+		display: flex;
+		width: 300px;
+		margin-top: 0;
+		box-sizing: border-box;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 9px;
+	}
+	.downloadButton{
+		display: flex;
+		width: 300px;
+		height: auto;
+		padding: 10px;
+	}
+	.frontButtonText{
+		font-size: 20px;
+		align-self: stretch;
+		white-space: nowrap;
+	}
+	.textUnderDownloadBtn{
+		font-size: 10px;
+		margin-top: 0;
+		white-space: nowrap;
+	}
+	.container{
+		width: 300px;
+		margin-top: 355px;
+		display: flex;
+		flex-direction: column-reverse;
+		gap: 19px;
+	}
+	.container-top{
+		width: 300px;
+		height: 93px;
+		padding: 15px;
+	}
+	.text-container1{
+		width: 100%;
+		font-size: 20px;
+	}
+	.container-middle{
+		width: 300px;
+		gap: 10px;
+		margin-top: 20px;
+	}
+	.container-mini{
+		height: 120px;
+		width: 300px;
+		padding: 10px;
+	}
+	.smile{
+		width: 55px;
+		height: 55px;
+	}
+	.text-container-mini{
+		width: 280px;
+		align-self: stretch;
+		font-size: 15px;
+	}
+	.v1{
+		font-size: 15px;
+	}
+	.v2{
+		font-size: 15px;
+		letter-spacing: -0.3px;
+	}
+
+	/*pop-up window*/
+	.popUpWindow{
+		width: 300px;
+		height: 578px;
+		padding: 10px;
+		padding-top: 15px;
+		top: 260px;
+		bottom: auto;
+		right: auto;
+		z-index: 9;
+	}
+	.headerTextInPopUp{
+		font-size: 20px;
+		padding-bottom: 8px;
+	}
+	.anotherTextInPopUp{
+		font-size: 15px;
+	}
+	.union{
+		top: 15px;
+		right: 15px;
+
+		width: 21px;
+		height: 21px;
+		z-index: 10;
+	}
+	.hidden{
+		opacity: 0;
+		display: none;
+		z-index: 0;
+	}
+	.back{
+		opacity: 0;
+		display: none;
+	}
+	.back2{
+		opacity: 1;
+		display: block;
+	}
+}
