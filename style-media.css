@@ -1,12 +1,13 @@
 @media (max-width:1200px){
 	html{
-		height: auto;
+		height: 1190px;
 	}
 	body{
-	overflow-x: hidden;
+		overflow: unset;
 	}
 	.background{
-		height: auto;
+		height: 1190px;
+		width: 100%;
 	}
 	.wrapper-background{
 		width: 342px;
@@ -161,5 +162,8 @@
 	.back2{
 		opacity: 1;
 		display: block;
+		object-fit: cover;
+	    width: 100%;
+	    height: 100%;
 	}
 }
